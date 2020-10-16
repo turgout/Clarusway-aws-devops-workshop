@@ -15,7 +15,7 @@ app.config['MYSQL_DATABASE_DB'] = 'phonebook'
 app.config['MYSQL_DATABASE_PORT'] = 3306
 db_endpoint.close()
 mysql = MySQL()
-mysql.init_app(app)
+mysql.init_app(app) 
 connection = mysql.connect()
 connection.autocommit(True)
 cursor = connection.cursor()
@@ -190,6 +190,6 @@ def delete_record():
 
 # Add a statement to run the Flask application which can be reached from any host on port 80.
 if __name__== '__main__':
-    # init_phonebook_db()
-    # app.run(debug=True)
+    init_phonebook_db()
+    #app.run(debug=True)
     app.run(host='0.0.0.0', port=80) 
