@@ -7,7 +7,7 @@ This project aims to create a Jenkins pipeline to deploy the Phonebook Applicati
 ## Problem Statement
 
 ![Project_202](Project_202.png)
-
+ 
 - Your company has recently started a project that aims to serve as phonebook web application. Your teammates have started to work on the project and developed the UI and backend part of the project and they need your help to deploy the app in development environment.
 
 - You are, as a cloud engineer, requested to create a Jenkins pipeline to deploy the Phonebook Application in the development environment on Docker Swarm on AWS EC2 Instances using AWS Cloudformation Service to showcase the project.
